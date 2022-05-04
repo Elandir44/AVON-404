@@ -1,0 +1,216 @@
+body{
+    background: url(../images/piaskowiec.jpg);
+    background-size: cover;
+    /*background-color: #303030;*/
+    color: #34495e;
+    font-size: 18px;
+;
+    margin: 0 !important;
+}
+#wrraper {
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    padding: 40px 0;
+}
+
+#logo {
+    width: 500px;
+    font-size: 48px;
+    /*border: 1px solid #ffffff;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    width: 100%;
+    opacity: 0.9;
+    padding: 10px 0;
+    text-align: center;
+    /*height: 40px;
+    background-color: #ffffff;*/
+
+}
+
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+
+}
+.socials {
+    width: 100%;
+    text-align: center;
+    background-color: #292929;
+}
+
+.socialdivs {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#fb {
+    width: 333px;
+    height: 155px;
+    float:left;
+}
+
+#fb:hover {
+background-color: #4668b3;
+}
+
+#yt {
+    width: 333px;
+    height: 155px;
+    float:left;
+}
+
+#yt:hover {
+    background-color: #d94348;
+}
+
+#tw {
+    width: 333px;
+    height: 155px;
+    float:left;
+}
+
+#tw:hover {
+    background-color: #3095d3;
+}
+
+.footer {
+    text-align: center;
+    background-color: #22222;
+    padding: 30px;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+
+ol {
+   /* background-color: #ffffff;
+    opacity: 0.9;*/
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+ol a {
+    color: #d82c88;
+    text-decoration: none;
+    display: block;
+    /*background-color: #ffffff;*/
+
+}
+
+ol > li {
+
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 1px dashed #751b1b;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+
+.container {
+	padding-top: 50px;
+	float: right;
+	width: 300px;
+    height: 300px;
+    /*border: 1px solid #CCC;
+    margin: 140px;*/
+    position: relative;
+    perspective: 1000px;
+}
+
+.kostka {
+    float: right;
+
+    position: perspective;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 200px;
+    animation: obracaniekostki 20s infinite alternate;
+
+}
+
+.bok {
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*background-color: darkblue;*/
+}
+
+div.front
+{
+    background-color: red;
+    transform: translateZ(100px);
+}
+div.back
+{
+    background-color: blue;
+    transform: rotateY(180deg) translateZ(100px); /*rotateX(-180deg)*/
+}
+div.left
+{
+    background-color: purple;
+    transform: rotateY(-90deg) translateZ(100px);
+
+}
+div.right
+{
+    background-color: green;
+    transform: rotateY(90deg) translateZ(100px);
+}
+div.top
+{
+    background-color: teal;
+    transform: rotateX(90deg) translateZ(100px);
+}
+div.bottom
+{
+    background-color: orange;
+    transform: rotateX(-90deg) translateZ(100px);
+
+}
+
+@keyframes obracaniekostki
+{
+    from
+    {
+    }
+    to
+    {
+        transform: rotateY(360deg) rotateX(360deg);
+    }
+}
+

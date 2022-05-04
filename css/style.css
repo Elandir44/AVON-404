@@ -1,0 +1,199 @@
+body{
+    /*background: url(../images/piaskowiec.jpg);*/
+    background-color: wheat;
+    background-size: cover;
+    background-color: white;
+    color: #34495e;
+    font-size: 18px;
+    margin: 0 !important;
+}
+
+#wrapper {
+    width: 1100px;
+    /*height: 1100px;*/
+    margin: 0 auto;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+#header{
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 500px;
+    font-size: 60px;
+    color: #d82c88;
+    text-align: center;
+    /*border: 1px solid #ffffff;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    width: 100%;
+    opacity: 0.9;
+    padding: 10px 0;
+    text-align: center;
+    /*/border: 1px solid #ffffff;*/
+    /*height: 40px;
+    background-color: #ffffff;*/
+
+}
+
+ol {
+    /* background-color: #ffffff;
+     opacity: 0.9;*/
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    height: 35px;
+    /*line-height: 200%;*/
+    display: inline-block;
+    font-weight: bold;
+}
+
+ol a {
+    color: #d82c88;
+    text-decoration: none;
+    display: block;
+    /*background-color: #ffffff;*/
+
+}
+
+ol > li {
+
+    float: left;
+    width: 180px;
+    height: 40px;
+    border-right: 1px dashed #751b1b;
+}
+
+ol > li:first-child
+{
+    border-left: 1px dashed #751b1b;
+}
+
+.content {
+    /*float: left;*/
+    margin-bottom: 30px;
+    margin-right: 10px;
+    /*border: 1px solid violet;*/
+    background-color: aliceblue;
+}
+
+.container {
+    float: left;
+    width: 1100px;
+    text-align: justify;
+    padding-top: 50px;
+    /*padding-left: 10px;*/
+    line-height: 22px;
+    background: aliceblue; /*#151515;*/
+    height: 500px;
+
+}
+
+.box {
+    width: 400px;
+    height: 350px;
+    color: white; /*#666666;*/
+    float: left;
+    /*border: 1px solid black;*/
+    text-align: justify;
+    margin-left: 100px;
+}
+
+div.box.first {
+    background: url(../images/Obraz1.png);
+    /*background-position: center;*/
+    /*border: 1px solid red;*/
+}
+
+div.box.second {
+    background: url(../images/Obraz3.jpg);
+    /*transform: translateX(100px);*/
+    /*border: 1px solid red;*/
+}
+
+div.box.third {
+    background: url(../images/Obraz2.png);
+    background-position: center;
+    width: 500px;
+    height: 300px;
+    margin-left: 300px;
+    color: black;
+        /*transform: translateX(100px);*/
+    /*border: 1px solid red;*/
+}
+
+div.box.fourth {
+    background: url(../images/Obraz4.png);
+    background-position: center;
+    width: 500px;
+    height: 150px;
+    margin-left: 300px;
+    /*border: 1px solid red;*/
+}
+
+/*div.content_box.third {*/
+/*    background: url(../images/Obraz3.jpg);*/
+/*}*/
+
+
+.box h2 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+
+    font-family:"Trebuchet MS", Tahoma, Arial, Helvetica, Sans-serif;
+    /*border-bottom:5px solid #242424;*/
+    color: white; /* #1F6BB2;*/
+    padding: 0 0 5px 0;
+}
+
+.box p {
+    /*height: 110px;*/
+    font-family: Arial;
+    /*overflow: hidden;*/
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*.content_box p:hover {*/
+/*    height: auto;*/
+/*}*/
+
+.box_rm {
+    float: right;
+    font-family: Arial;
+    margin-right: 5px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2222;
+    padding: 30px;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+
+
+
+
+
