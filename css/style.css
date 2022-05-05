@@ -43,7 +43,7 @@ body{
 
 }
 
-ol {
+.menu ol {
     /* background-color: #ffffff;
      opacity: 0.9;*/
     padding: 0;
@@ -56,7 +56,7 @@ ol {
     font-weight: bold;
 }
 
-ol a {
+.menu ol a {
     color: #d82c88;
     text-decoration: none;
     display: block;
@@ -64,7 +64,7 @@ ol a {
 
 }
 
-ol > li {
+.menu ol > li {
 
     float: left;
     width: 180px;
@@ -72,7 +72,7 @@ ol > li {
     border-right: 1px dashed #751b1b;
 }
 
-ol > li:first-child
+.menu ol > li:first-child
 {
     border-left: 1px dashed #751b1b;
 }
@@ -93,18 +93,18 @@ ol > li:first-child
     /*padding-left: 10px;*/
     line-height: 22px;
     background: aliceblue; /*#151515;*/
-    height: 500px;
+    height: 400px;
 
 }
 
 .box {
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     color: white; /*#666666;*/
     float: left;
     /*border: 1px solid black;*/
     text-align: justify;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 div.box.first {
@@ -121,10 +121,10 @@ div.box.second {
 
 div.box.third {
     background: url(../images/Obraz2.png);
-    background-position: center;
-    width: 500px;
-    height: 300px;
-    margin-left: 300px;
+    /*background-position: center;*/
+    /*width: 500px;*/
+    /*height: 300px;*/
+    /*margin-left: 300px;*/
     color: black;
         /*transform: translateX(100px);*/
     /*border: 1px solid red;*/
@@ -173,15 +173,52 @@ div.box.fourth {
     margin-right: 5px;
 }
 
-a {
+.box_rm a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
 .footer {
+    /*text-align: center;*/
+    width: 1100px;
+    height: 150px;
+    background-color: #424242; /* #2222;*/
+    /*padding: 30px;*/
+    float: left;
+    border: 1px solid red;
+}
+
+.menuFooter {
+    float: left;
+}
+
+/*.menuFooter ol li {*/
+/*    width: auto;*/
+/*    height: auto;*/
+/*    !*float: left;*!*/
+
+/*}*/
+
+.row {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
+}
+
+.menuFooter ol a {
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#footerCopy {
+    background-color: black;
     text-align: center;
-    background-color: #2222;
-    padding: 30px;
+    color: #757575;
+    font-size: small;
+    font-family: Arial;
+
 }
 
 .sticky {
